@@ -17,7 +17,7 @@ This project implements Denoising Convolutional Neural Networks (DnCNN) architet
 2. The train and validation images were divided into patches of size 256x256 before being fed to the model, making the load easier on the machine.
 3. The model ```tf_denoiser_2.h5``` gives the best results.
 
-### Testing
+### 4. Testing
 1. The test images were split into patches of size 256x256 and then reassembled after denoising to create the full image.
 2. Patch overlapping was also implemented to handle images of odd dimensions.
 3. Below are some before and after images.
@@ -25,7 +25,7 @@ This project implements Denoising Convolutional Neural Networks (DnCNN) architet
 ![output3](https://github.com/user-attachments/assets/a68f75ab-1b81-4860-95cf-6ab2395d7e51)
 ![output2](https://github.com/user-attachments/assets/abf10786-57a8-4d28-bbd6-47344556929a)
 
-### Validation
+### 5. Validation
 On the validation set of DIV2K dataset,
 PSNR = 26.52
 SSIM = 0.7537
