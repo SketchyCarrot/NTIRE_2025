@@ -1,4 +1,4 @@
-# NTIRE_2025
+# Denoising Images using DnCNN followed by Non-Local Means
 Project made for NTIRE Denoising Challenge
 
 This project implements Denoising Convolutional Neural Networks (DnCNN) architeture from the paper Kai Zhang et al., "Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising."
@@ -16,8 +16,6 @@ This project implements Denoising Convolutional Neural Networks (DnCNN) architet
 1. Trained the model on rescaled images of dimensions (1536, 1536, 3).
 2. The train and validation images were divided into patches of size 256x256 before being fed to the model, making the load easier on the machine.
 3. The model ```tf_denoiser_2.h5``` gives the best results.
-
-![image](https://github.com/user-attachments/assets/9445cf7b-9614-4d52-9c80-eaa13c282a2e)
 
 ### Testing
 1. The test images were split into patches of size 256x256 and then reassembled after denoising to create the full image.
